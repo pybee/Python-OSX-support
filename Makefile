@@ -1,6 +1,6 @@
 PROJECTDIR=$(shell pwd)
 
-BUILD_NUMBER=1
+BUILD_NUMBER=2
 
 # Version of packages that will be compiled by this meta-package
 PYTHON_VERSION=3.4.2
@@ -25,7 +25,8 @@ distclean: clean
 	rm -rf downloads
 
 Python-$(PYTHON_VERSION)-OSX-support.b$(BUILD_NUMBER).tar.gz: dist/python/bin/python$(basename $(PYTHON_VERSION))m
-	cd dist && tar zcvf ../Python-$(PYTHON_VERSION)-OSX-support.b$(BUILD_NUMBER).tar.gz python
+	echo "Python-$(PYTHON_VERSION)-OSX-support.b$(BUILD_NUMBER)" > dist/VERSION
+	cd dist && tar zcvf ../Python-$(PYTHON_VERSION)-OSX-support.b$(BUILD_NUMBER).tar.gz python VERSION
 
 ###########################################################################
 # Working directories
