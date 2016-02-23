@@ -6,7 +6,7 @@ into an OS/X app.
 
 It works by downloading, patching, and building OpenSSL and Python.
 
-This repository branch builds a packaged version of **Python 3.4.2**.
+This repository branch builds a packaged version of **Python 3.4.4**.
 Other Python versions are available by cloning other branches of the main
 repository.
 
@@ -29,4 +29,4 @@ This should:
 
 The build products will be in the `build` directory.
 
-.. _downloaded: https://github.com/pybee/Python-OSX-support/releases/download/3.4.2-b1/Python-3.4.2-OSX-support.b1.tar.gz
+.. _downloaded: https://github.com/pybee/Python-OSX-support/releases/download/3.4.4-b1/Python-3.4.4-OSX-support.b1.tar.gz
