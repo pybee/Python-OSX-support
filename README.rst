@@ -29,4 +29,4 @@ This should:
 
 The build products will be in the `build` directory.
 
-.. _downloaded: https://github.com/pybee/Python-OSX-support/releases/download/3.4.2-b1/Python-3.4.2-OSX-support.b1.tar.gz
+.. _downloaded: https://github.com/pybee/Python-OSX-support/releases/download/3.4.2-b3/Python-3.4.2-OSX-support.b3.tar.gz
