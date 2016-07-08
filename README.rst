@@ -4,7 +4,7 @@ Python OS/X Support
 WARNING: This project is DEPRECATED
 -----------------------------------
 
-**It has been replaced by the multi-platform `Python-Apple-support`_ package**
+It has been replaced by the multi-platform `Python-Apple-support`_ package
 
 .. _Python-Apple-support: https://github.com/pybee/Python-Apple-support
 
