@@ -4,7 +4,9 @@ Python OS/X Support
 WARNING: This project is DEPRECATED
 -----------------------------------
 
-It has been replaced by the multi-platform `Python-Apple-support<https://github.com/pybee/Python-Apple-support>`__ package
+**It has been replaced by the multi-platform `Python-Apple-support`_ package**
+
+.. _Python-Apple-support: https://github.com/pybee/Python-Apple-support
 
 This is a meta-package for building a version of Python that can be embedded
 into an OS/X app.
